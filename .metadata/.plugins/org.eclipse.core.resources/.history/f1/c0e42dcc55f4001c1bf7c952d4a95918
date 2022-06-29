@@ -1,0 +1,13 @@
+package New;
+
+public class StringCompareToMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word1="ape";
+		String word2="zebra";
+		System.out.println(word1.compareTo(word2));
+
+	}
+
+}

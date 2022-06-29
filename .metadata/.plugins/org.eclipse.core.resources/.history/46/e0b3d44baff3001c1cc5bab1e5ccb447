@@ -1,0 +1,15 @@
+package New;
+
+public class CarBlock {
+	static {
+		String brand="BMW";
+		int price=800000;
+		System.out.println("--BMW--");
+	}
+	static {
+		String brand="BENZ";
+		int price=1000000;
+		System.out.println("--BENZ--");
+	}
+
+}

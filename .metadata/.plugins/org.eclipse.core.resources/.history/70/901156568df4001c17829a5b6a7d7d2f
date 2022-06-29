@@ -1,0 +1,43 @@
+package New;
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+interface Printable{
+		void print(String msg);
+	}
+
+	public class MethodRef {
+			public  void display(String msg) {
+				msg=msg.toUpperCase();
+				System.out.println(msg);
+			}
+			public static int addition(int a,int b) {
+				return a+b;
+			}
+
+			public static void main(String[] args) {
+				//1.Method Reference to a static method;
+				//Lambda expression
+				Function<Integer, Double> function=(input)->Math.sqrt(input);
+				System.out.println(function.apply(4));
+				//Method reference
+				Function<Integer, Double> functionRef=Math::sqrt;
+				System.out.println(functionRef.apply(9));
+				//Lambda Expression for static method
+				BiFunction<Integer, Integer, Integer> biFunction=(a,b)->MethodRef.addition(a,b);
+				System.out.println(biFunction.apply(30,58));
+				//Method Reference for static method
+				BiFunction<Integer, Integer, Integer> biFunction1=MethodRef::addition;
+				System.out.println(biFunction1.apply(80, 102));
+				
+				MethodRef methodRef=new MethodRef();
+				//Lambda Expression
+				Printable printable=(msg)->methodRef.display(msg);
+				printable.print("Welcome to java 8 Feature");
+				//Method Reference
+				Printable printable1=methodRef::display;
+				printable1.print("Method Reference");
+				}
+
+}

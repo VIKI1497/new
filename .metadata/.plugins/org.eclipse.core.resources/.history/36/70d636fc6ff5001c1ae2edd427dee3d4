@@ -1,0 +1,15 @@
+package New;
+
+import java.util.Arrays;
+
+public class Mini {
+	public static int getSmallest(int[]a,int total) {
+		Arrays.sort(a);
+		return a[0];
+	}
+	public static void main(String[] args) {
+		int[] a= {26,31,21,43,37};
+		System.out.println(getSmallest(a,5));
+	}
+
+}

@@ -1,0 +1,8 @@
+package New;
+
+public class New1 {
+	static int add(int a,int b) {
+		return (a*b);
+	}
+
+}

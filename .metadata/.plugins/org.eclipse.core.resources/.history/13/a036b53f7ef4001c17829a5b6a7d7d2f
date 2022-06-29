@@ -1,0 +1,13 @@
+package New;
+
+import java.util.function.Function;
+
+public class MethodReference {
+
+	public static void main(String[] args) {
+		Function<Integer, Double> function=(input)->Math.sqrt(4);
+		System.out.println(function);
+
+	}
+
+}

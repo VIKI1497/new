@@ -1,0 +1,8 @@
+package New;
+
+public class  New {
+	static int a=10;
+	public static void main(String[] args) {
+		
+	}
+}

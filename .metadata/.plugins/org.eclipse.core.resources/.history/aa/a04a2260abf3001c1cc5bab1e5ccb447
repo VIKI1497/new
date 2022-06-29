@@ -1,0 +1,10 @@
+package New;
+
+public class College {
+	static int id;
+	static String name;
+	static void method() {
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package New;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class EkartDatabase {
+	static List<Customer> getAll(){
+		return Stream.of(new Customer(101,"john","john@gmail.com",Arrays.asList(8640128751,7562410352)));
+	}
+
+}

@@ -1,0 +1,13 @@
+package New;
+
+public class Singleton {
+	private static String s;
+	public static final Singleton INSTANCE=new Singleton();
+	private Singleton() {
+		s="Singleton class";
+	}
+	public static Singleton getInstance() {
+		return INSTANCE;
+	}
+}
+	

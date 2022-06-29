@@ -1,0 +1,18 @@
+package New;
+
+public class Test implements InterfaceDemo {
+	public static void main(String[] args) {
+		Test t=new Test();
+		t.test();
+		t.test1();
+		InterfaceDemo.test2();
+		
+	}
+
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
+		System.out.println("Welome");
+	}
+
+}

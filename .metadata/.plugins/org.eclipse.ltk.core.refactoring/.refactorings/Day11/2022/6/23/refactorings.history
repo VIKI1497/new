@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DEMO.AmandPm&apos; to &apos;Time&apos;&#x0D;&#x0A;- Original project: &apos;Day11&apos;&#x0D;&#x0A;- Original element: &apos;DEMO.AmandPm&apos;&#x0D;&#x0A;- Renamed element: &apos;DEMO.Time&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AmandPm&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;DEMO{AmandPm.java[AmandPm" matchStrategy="1" name="Time" qualified="false" references="true" similarDeclarations="false" stamp="1654132718126" textual="false" version="1.0"/>
+</session>

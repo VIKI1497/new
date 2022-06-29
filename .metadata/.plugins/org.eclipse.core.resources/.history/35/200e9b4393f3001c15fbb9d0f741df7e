@@ -1,0 +1,8 @@
+package New;
+
+public interface Number {
+	static void num(int a,int b) {
+		System.out.println(a+b);
+	}
+
+}

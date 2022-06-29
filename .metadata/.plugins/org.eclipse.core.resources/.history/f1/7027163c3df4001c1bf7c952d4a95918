@@ -1,0 +1,7 @@
+package New;
+@FunctionalInterface
+
+public interface Sample {
+	void display();
+
+}

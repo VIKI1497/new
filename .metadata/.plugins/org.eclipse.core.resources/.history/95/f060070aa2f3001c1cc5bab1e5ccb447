@@ -1,0 +1,11 @@
+package New;
+
+public class Method {
+	static void display(static int a) {
+		System.out.println(a);
+	}
+	public static void main(String[] args) {
+		Method.display(10);
+	}
+
+}

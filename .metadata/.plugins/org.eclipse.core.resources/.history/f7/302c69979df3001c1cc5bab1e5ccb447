@@ -1,0 +1,11 @@
+package New;
+
+public class  Staff {
+	static int a=30;
+	public static void main(String[] args) {
+		Staff s=new Staff();
+		int age=s.a;
+		System.out.println("Age="+age);
+		System.out.println(Staff.a);
+	}
+}

@@ -1,0 +1,8 @@
+package New;
+
+public interface Number {
+	static int num(int a,int b) {
+		return(a+b);
+	}
+
+}
